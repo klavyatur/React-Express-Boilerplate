@@ -1,4 +1,4 @@
-This is a biolerplate for basic React/CSS/Express setup that Sean made.
+This is a boilerplate for basic React/CSS/Express setup that Sean made.
 
 create .env file in root directory
 
