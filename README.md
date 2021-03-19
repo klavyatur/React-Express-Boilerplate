@@ -1,11 +1,9 @@
-This is a boilerplate for basic React/CSS/Express setup that Sean made.
-
-create .env file in root directory
-
 npm install
 
 npm run build
 
-npm run dev and window should pop up at http://localhost:8080/
+npm run server - just to run server at localhost:3000
+
+npm run dev will run server and client - window should pop up at localhost:8080
 
 Have fun making stuff!
