@@ -10,6 +10,7 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.jsx'],
   },
+  devtool: "eval-cheap-source-map",
   module: {
     rules: [
       {

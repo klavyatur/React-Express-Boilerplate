@@ -16,10 +16,10 @@ app.use(express.urlencoded({ extended: true }));
 
 //routes
 
-// bad route error handling
+// bad route error handling. defaults to sending back to index.html
 app.use((req, res) => {
-  console.log('we are in a bad route');
-  res.sendStatus(418);
+  console.log('this is a bad route');
+  res.sendStatus(404);
 });
 
 // global error handler
